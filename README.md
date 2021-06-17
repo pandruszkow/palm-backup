@@ -10,6 +10,10 @@ Configurable options:
 
 All backups are timestamped with the ISO8601-formatted datetime, and have a fixed prefix. The resulting archives amount to around 500 KiB on my machine, so keeping a full backup history should take up a negligible amount of space.
 
+This script was only tested with Palm Desktop 4.1.4 as this is what I have installed. Feedback welcome on other versions.
+
+Restoring from this script has **not** been tested yet, but I assume it would be as easy as unpacking all the PDB/PDC files manually from the archive, and applying to a freshly factory reset device using a newly installed copy of Palm Desktop.
+
 Potential new features:
 - Pass in the HotSync profile name via a batch parameter
 - Allow specifying a custom path and/or filename template via a batch parameter
